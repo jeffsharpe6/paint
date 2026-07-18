@@ -1,0 +1,22 @@
+window.PAINT_PROJECTS_META = [
+  { id: "golden-hour-pup", title: "Golden Hour Pup", category: "puppies", description: "A sunlit retriever in the meadow", difficulty: 3 },
+  { id: "frenchie-in-blooms", title: "Frenchie in Blooms", category: "puppies", description: "A gentle face among dahlias", difficulty: 3 },
+  { id: "dachshund-daydream", title: "Dachshund Daydream", category: "puppies", description: "A rainy-day window reverie", difficulty: 3 },
+  { id: "cozy-doodle", title: "Cozy Doodle", category: "puppies", description: "Warm curls beside the hearth", difficulty: 3 },
+  { id: "desert-afterglow", title: "Desert Afterglow", category: "landscapes", description: "Sonoran silhouettes at dusk", difficulty: 3 },
+  { id: "alpine-stillness", title: "Alpine Stillness", category: "landscapes", description: "A mirror lake beneath snowy peaks", difficulty: 3 },
+  { id: "tuscan-afternoon", title: "Tuscan Afternoon", category: "landscapes", description: "A cypress-lined path through the hills", difficulty: 3 },
+  { id: "keepers-light", title: "Keeper’s Light", category: "landscapes", description: "A lighthouse above a restless sea", difficulty: 3 },
+  { id: "peony-study", title: "Peony Study", category: "flowers", description: "Layered petals in dusky rose", difficulty: 3 },
+  { id: "gathered-wildflowers", title: "Gathered Wildflowers", category: "flowers", description: "A meadow bouquet on linen", difficulty: 3 },
+  { id: "sunflower-sunday", title: "Sunflower Sunday", category: "flowers", description: "Bold blooms turned toward light", difficulty: 3 },
+  { id: "lotus-calm", title: "Lotus Calm", category: "flowers", description: "Still water and opening petals", difficulty: 3 },
+  { id: "cottage-in-bloom", title: "Cottage in Bloom", category: "gardens", description: "A flower-lined path home", difficulty: 3 },
+  { id: "secret-garden-gate", title: "Secret Garden Gate", category: "gardens", description: "An ivy-covered invitation", difficulty: 3 },
+  { id: "kitchen-herb-garden", title: "Kitchen Herb Garden", category: "gardens", description: "Terracotta pots and fresh greens", difficulty: 3 },
+  { id: "desert-courtyard", title: "Desert Courtyard", category: "gardens", description: "A warm refuge of tile and agave", difficulty: 3 },
+  { id: "monarch-moment", title: "Monarch Moment", category: "nature", description: "A butterfly resting in the meadow", difficulty: 3 },
+  { id: "koi-pond", title: "Koi Pond", category: "nature", description: "Bright currents beneath lilies", difficulty: 3 },
+  { id: "hummingbird-jewel", title: "Hummingbird Jewel", category: "nature", description: "A flash of color at the flowers", difficulty: 3 },
+  { id: "moonlit-companion", title: "Moonlit Companion", category: "nature", description: "A quiet cat beneath the stars", difficulty: 3 }
+];

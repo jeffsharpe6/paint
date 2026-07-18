@@ -1,0 +1,774 @@
+[
+  {
+    "id": "alpine-stillness",
+    "palette": [
+      {
+        "hex": "#b8b5ac",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#eee3d2",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#30504f",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#083028",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#919da1",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#62826c",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#939074",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#66819e",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 132,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "cottage-in-bloom",
+    "palette": [
+      {
+        "hex": "#2c6748",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#4c6a65",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#ab9462",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#6a8a58",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#84749b",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#9fafdb",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#c2afa3",
+        "name": "Color 7"
+      }
+    ],
+    "regions": 157,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "cozy-doodle",
+    "palette": [
+      {
+        "hex": "#3a3329",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#b18758",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#dfbb8b",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#a15c32",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#bd9260",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#7c7e62",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#cb9965",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#d4a977",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 137,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "dachshund-daydream",
+    "palette": [
+      {
+        "hex": "#dbbf93",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#af9865",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#73836e",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#486f7f",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#384b3c",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#8d7747",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#55542c",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#854b18",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 135,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "desert-afterglow",
+    "palette": [
+      {
+        "hex": "#d3604b",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#df9740",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#ebb79b",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#795258",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#9f4338",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#605054",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#836488",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 102,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "desert-courtyard",
+    "palette": [
+      {
+        "hex": "#ad6451",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#7e6650",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#556051",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#a05334",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#ae8455",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#dfa35f",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#284c67",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#6a7e79",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 159,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "frenchie-in-blooms",
+    "palette": [
+      {
+        "hex": "#404647",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#a39e85",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#dcb19d",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#eccdb3",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#757263",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#f7e3c7",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#b07073",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#cf928c",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 159,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "gathered-wildflowers",
+    "palette": [
+      {
+        "hex": "#839373",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#484d44",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#676659",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#735f8a",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#d76b63",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#c2933c",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#efe3cb",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 133,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "golden-hour-pup",
+    "palette": [
+      {
+        "hex": "#e09339",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#f5bb5a",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#fae1a0",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#ad7e2e",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#8b6629",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#51512d",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#343b28",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#696135",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 159,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "hummingbird-jewel",
+    "palette": [
+      {
+        "hex": "#44a3c6",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#d29b2c",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#2e8a5e",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#117058",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#97c7e3",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#e7503c",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#18503f",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 107,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "keepers-light",
+    "palette": [
+      {
+        "hex": "#637483",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#3c7777",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#c2c5b8",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#ebe7d7",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#909e97",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#4a4d4f",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#375649",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#b46943",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 89,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "kitchen-herb-garden",
+    "palette": [
+      {
+        "hex": "#0e2e39",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#5a747f",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#e7c89d",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#d98d33",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#9fd1c7",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#40602d",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#908347",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#8f4a1d",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 159,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "koi-pond",
+    "palette": [
+      {
+        "hex": "#234c47",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#6b8350",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#3f5b40",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#457967",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#82a9a0",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#ebe3cf",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#cd8844",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 51,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "lotus-calm",
+    "palette": [
+      {
+        "hex": "#edd2c1",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#687a51",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#2f5b4e",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#a7a06e",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#b799ab",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#0a4441",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#3e7a94",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#003d51",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 106,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "monarch-moment",
+    "palette": [
+      {
+        "hex": "#84acc6",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#e0b87d",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#e3aa44",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#ac9048",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#9e6d87",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#f1dcba",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#cd7323",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#555d49",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 127,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "moonlit-companion",
+    "palette": [
+      {
+        "hex": "#00204a",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#243c56",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#5b505d",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#d3a24d",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#f8da9a",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#1c3036",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#2f4834",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#0c1319",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 69,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "peony-study",
+    "palette": [
+      {
+        "hex": "#f3e3cf",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#e6a0a3",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#47624c",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#889368",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#c38f44",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#bb6877",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#743148",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 86,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "secret-garden-gate",
+    "palette": [
+      {
+        "hex": "#a89880",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#d6c6a8",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#67774b",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#b7636f",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#344834",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#4c3c4e",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#c39848",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 159,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "sunflower-sunday",
+    "palette": [
+      {
+        "hex": "#f3dcaf",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#776f43",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#674921",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#edb53c",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#c97d12",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#3c321e",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#de981d",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#9f5d21",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 159,
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "tuscan-afternoon",
+    "palette": [
+      {
+        "hex": "#d3a04c",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#e7d3b3",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#70889f",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#8e8b5b",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#6d6643",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#3c5037",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#4c6477",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#b56544",
+        "name": "Color 8"
+      }
+    ],
+    "regions": 158,
+    "width": 800,
+    "height": 600
+  }
+]
