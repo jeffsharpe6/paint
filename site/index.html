@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3eee5" />
+    <meta
+      name="description"
+      content="Palette by Number is a relaxing collection of twenty original paint-by-number projects you can color online and download."
+    />
+    <meta property="og:title" content="Palette by Number" />
+    <meta property="og:description" content="Slow down. Choose a color. Make something beautiful." />
+    <meta property="og:type" content="website" />
+    <title>Palette by Number</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Palette by Number home">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </span>
+        <span>Palette <em>by</em> Number</span>
+      </a>
+      <button class="header-action" id="continueButton" type="button" hidden>
+        Continue painting
+        <span aria-hidden="true">→</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A quiet corner for creativity</p>
+          <h1 id="heroTitle">Slow down.<br />Color <i>beautifully.</i></h1>
+          <p class="hero-intro">
+            Choose a project, match each number to its color, and watch an
+            original work of art come gently to life—one peaceful space at a time.
+          </p>
+          <a class="primary-button" href="#projects">
+            Explore 20 projects
+            <span aria-hidden="true">↓</span>
+          </a>
+          <div class="hero-notes" aria-label="Site features">
+            <span><b>✓</b> No account needed</span>
+            <span><b>✓</b> Progress saves automatically</span>
+            <span><b>✓</b> Download your art</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-card hero-card-back">
+            <svg viewBox="0 0 320 390">
+              <rect width="320" height="390" rx="12" fill="#e2b780" />
+              <circle cx="262" cy="75" r="46" fill="#edcf96" />
+              <path d="M0 270 Q78 185 155 255 T320 220 V390 H0Z" fill="#789283" />
+              <path d="M0 320 Q85 235 166 307 T320 272 V390 H0Z" fill="#345c56" />
+              <path d="M62 390 C88 300 103 226 124 147" stroke="#f4ece0" stroke-width="14" fill="none" />
+              <g fill="#faf5ed" opacity=".9"><circle cx="124" cy="147" r="5"/><circle cx="83" cy="317" r="5"/><circle cx="255" cy="289" r="5"/></g>
+            </svg>
+          </div>
+          <div class="hero-card hero-card-front">
+            <div id="heroPreview"></div>
+            <span class="art-label">Golden Hour Pup</span>
+          </div>
+          <div class="floating-swatch swatch-a"><span>3</span></div>
+          <div class="floating-swatch swatch-b"><span>6</span></div>
+          <div class="floating-swatch swatch-c"><span>1</span></div>
+        </div>
+      </section>
+
+      <section class="collection" id="projects" aria-labelledby="collectionTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> The collection</p>
+            <h2 id="collectionTitle">Find your next quiet moment.</h2>
+          </div>
+          <p>Every illustration is original, thoughtfully numbered, and ready to become yours.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects by category">
+          <button class="filter-button active" data-filter="all" type="button">All <span>20</span></button>
+          <button class="filter-button" data-filter="puppies" type="button">Puppies <span>4</span></button>
+          <button class="filter-button" data-filter="landscapes" type="button">Landscapes <span>4</span></button>
+          <button class="filter-button" data-filter="flowers" type="button">Flowers <span>4</span></button>
+          <button class="filter-button" data-filter="gardens" type="button">Gardens <span>4</span></button>
+          <button class="filter-button" data-filter="nature" type="button">Nature & more <span>4</span></button>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="how-it-works" aria-labelledby="howTitle">
+        <div class="how-copy">
+          <p class="eyebrow light"><span></span> Simple by design</p>
+          <h2 id="howTitle">A little ritual<br />for your <i>day.</i></h2>
+          <p>No supplies. No cleanup. Just a few minutes of color and a beautiful result you can keep.</p>
+        </div>
+        <ol class="steps">
+          <li><span>01</span><div><h3>Choose an image</h3><p>Pick the scene that matches your mood.</p></div></li>
+          <li><span>02</span><div><h3>Select a color</h3><p>Each swatch carries its matching number.</p></div></li>
+          <li><span>03</span><div><h3>Fill the spaces</h3><p>Click or tap every area with that number.</p></div></li>
+          <li><span>04</span><div><h3>Save your artwork</h3><p>Download a crisp PNG when it feels complete.</p></div></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Palette <em>by</em> Number</span>
+      </a>
+      <p>Made for slower moments and brighter days.</p>
+      <p>© <span id="year"></span> Palette by Number</p>
+    </footer>
+
+    <div class="studio" id="studio" hidden>
+      <div class="studio-shell">
+        <header class="studio-header">
+          <button class="icon-button back-button" id="closeStudio" type="button" aria-label="Return to project collection">←</button>
+          <div class="studio-title-block">
+            <p id="studioCategory">Puppies</p>
+            <h2 id="studioTitle">Golden Hour Pup</h2>
+          </div>
+          <div class="studio-progress-wrap">
+            <span id="progressText">0% complete</span>
+            <div class="progress-track" role="progressbar" aria-label="Painting progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <i id="progressBar"></i>
+            </div>
+          </div>
+          <button class="download-button" id="downloadButton" type="button">
+            <span aria-hidden="true">⇩</span> Download PNG
+          </button>
+        </header>
+
+        <div class="studio-body">
+          <aside class="palette-panel" aria-label="Color palette">
+            <div class="panel-heading">
+              <div><p>Paint palette</p><h3>Choose a color</h3></div>
+              <button class="tiny-button" id="hintButton" type="button" aria-pressed="true">Numbers on</button>
+            </div>
+            <div class="palette-list" id="paletteList"></div>
+            <p class="palette-tip"><span>⌁</span> Select a swatch, then fill every space with its number.</p>
+          </aside>
+
+          <section class="canvas-area" aria-label="Paint-by-number canvas">
+            <div class="canvas-toolbar">
+              <button class="tool-button" id="undoButton" type="button" disabled><span aria-hidden="true">↶</span> Undo</button>
+              <button class="tool-button" id="resetButton" type="button"><span aria-hidden="true">↻</span> Start over</button>
+              <div class="zoom-controls" aria-label="Canvas zoom controls">
+                <button id="zoomOut" type="button" aria-label="Zoom out">−</button>
+                <span id="zoomText">100%</span>
+                <button id="zoomIn" type="button" aria-label="Zoom in">+</button>
+              </div>
+            </div>
+            <div class="canvas-scroll" id="canvasScroll">
+              <div class="artboard" id="artboard"></div>
+            </div>
+            <p class="selection-status" id="selectionStatus" aria-live="polite"></p>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="dialog-backdrop" id="completionDialog" hidden>
+      <div class="completion-card" role="dialog" aria-modal="true" aria-labelledby="completionTitle">
+        <div class="completion-bloom" aria-hidden="true">✦</div>
+        <p class="eyebrow centered"><span></span> Beautifully done <span></span></p>
+        <h2 id="completionTitle">Your artwork is complete.</h2>
+        <p>You brought every little space to life. Save your finished piece or take a moment to admire it.</p>
+        <div class="completion-actions">
+          <button class="primary-button" id="dialogDownload" type="button">Download artwork <span>⇩</span></button>
+          <button class="text-button" id="dismissCompletion" type="button">Keep admiring</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="projects.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
