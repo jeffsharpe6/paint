@@ -730,6 +730,72 @@
     "height": 600
   },
   {
+    "id": "malibu-sunset-run",
+    "palette": [
+      {
+        "hex": "#fbd27b",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#f3b369",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#f98f47",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#d09189",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#ee7c4c",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#dd6753",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#a06974",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#a95451",
+        "name": "Color 8"
+      },
+      {
+        "hex": "#8a4d4c",
+        "name": "Color 9"
+      },
+      {
+        "hex": "#6e4956",
+        "name": "Color 10"
+      },
+      {
+        "hex": "#643742",
+        "name": "Color 11"
+      },
+      {
+        "hex": "#44384b",
+        "name": "Color 12"
+      },
+      {
+        "hex": "#332531",
+        "name": "Color 13"
+      },
+      {
+        "hex": "#1c1422",
+        "name": "Color 14"
+      }
+    ],
+    "regions": 567,
+    "width": 640,
+    "height": 480,
+    "previewWidth": 3840,
+    "previewHeight": 2880
+  },
+  {
     "id": "monarch-moment",
     "palette": [
       {
@@ -844,6 +910,72 @@
     "regions": 86,
     "width": 800,
     "height": 600
+  },
+  {
+    "id": "red-river-summer-walk",
+    "palette": [
+      {
+        "hex": "#ede5c8",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#dac789",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#90ceee",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#7dbacd",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#a9a56c",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#998757",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#61a1c5",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#657a4d",
+        "name": "Color 8"
+      },
+      {
+        "hex": "#6c6041",
+        "name": "Color 9"
+      },
+      {
+        "hex": "#4b5938",
+        "name": "Color 10"
+      },
+      {
+        "hex": "#374d36",
+        "name": "Color 11"
+      },
+      {
+        "hex": "#1e4731",
+        "name": "Color 12"
+      },
+      {
+        "hex": "#153628",
+        "name": "Color 13"
+      },
+      {
+        "hex": "#0a1d1e",
+        "name": "Color 14"
+      }
+    ],
+    "regions": 795,
+    "width": 640,
+    "height": 480,
+    "previewWidth": 3840,
+    "previewHeight": 2880
   },
   {
     "id": "secret-garden-gate",
