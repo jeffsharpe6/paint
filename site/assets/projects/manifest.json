@@ -40,6 +40,64 @@
     "height": 240
   },
   {
+    "id": "bichon-sunflower-romp",
+    "palette": [
+      {
+        "hex": "#f0e5cd",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#e0cd8e",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#d8b04d",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#a9a76b",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#54a4d0",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#a17d23",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#6d7425",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#0a7fd4",
+        "name": "Color 8"
+      },
+      {
+        "hex": "#416744",
+        "name": "Color 9"
+      },
+      {
+        "hex": "#584913",
+        "name": "Color 10"
+      },
+      {
+        "hex": "#314617",
+        "name": "Color 11"
+      },
+      {
+        "hex": "#113418",
+        "name": "Color 12"
+      }
+    ],
+    "regions": 708,
+    "width": 640,
+    "height": 480,
+    "previewWidth": 3840,
+    "previewHeight": 2880
+  },
+  {
     "id": "cottage-in-bloom",
     "palette": [
       {

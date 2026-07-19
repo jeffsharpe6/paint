@@ -219,7 +219,7 @@ footer { min-height: 150px; display: flex; align-items: center; justify-content:
 .zoom-controls button { width: 30px; height: 28px; border: 0; background: transparent; cursor: pointer; }
 .zoom-controls span { min-width: 46px; text-align: center; font-size: 9px; color: var(--muted); }
 .canvas-scroll { flex: 1; overflow: auto; display: grid; place-items: center; padding: 42px; min-height: calc(100dvh - 125px); }
-.artboard { width: min(720px, 75vw); aspect-ratio: 4 / 3; background: white; box-shadow: 0 18px 50px rgba(57,48,38,.17); transform-origin: center; transition: transform .2s; }
+.artboard { width: min(720px, 75vw); flex: 0 0 auto; aspect-ratio: 4 / 3; background: white; box-shadow: 0 18px 50px rgba(57,48,38,.17); transition: width .2s; }
 .artboard svg { width: 100%; height: 100%; display: block; }
 .paint-region { cursor: crosshair; transition: filter .16s, fill .25s; }
 .paint-region:hover { filter: brightness(.96); }

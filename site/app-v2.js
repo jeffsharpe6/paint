@@ -16,6 +16,7 @@
   let undoHistory = [];
   let numbersVisible = true;
   let zoom = 1;
+  let baseArtboardWidth = 0;
   let completionShown = false;
   let toastTimer;
 
@@ -97,6 +98,7 @@
     selectedNumber = 1;
     undoHistory = [];
     zoom = 1;
+    artboard.style.width = "";
     numbersVisible = true;
     completionShown = false;
     $("#studioTitle").textContent = currentProject.title;
@@ -108,6 +110,7 @@
     document.body.classList.add("studio-open");
     window.history.replaceState(null, "", `#paint=${currentProject.id}`);
     localStorage.setItem(LAST_KEY, currentProject.id);
+    baseArtboardWidth = artboard.getBoundingClientRect().width;
     updateZoom();
     try {
       const response = await fetch(asset(currentProject.id, "svg"));
@@ -294,12 +297,13 @@
   }
 
   function updateZoom() {
-    artboard.style.transform = `scale(${zoom})`;
+    if (!baseArtboardWidth) baseArtboardWidth = artboard.getBoundingClientRect().width;
+    artboard.style.width = `${Math.round(baseArtboardWidth * zoom)}px`;
     $("#zoomText").textContent = `${Math.round(zoom * 100)}%`;
   }
 
   function changeZoom(delta) {
-    zoom = Math.min(1.5, Math.max(.75, Math.round((zoom + delta) * 100) / 100));
+    zoom = Math.min(6, Math.max(.75, Math.round((zoom + delta) * 100) / 100));
     updateZoom();
   }
 
@@ -318,14 +322,14 @@
       path.removeAttribute("aria-label");
       path.classList.remove("wrong");
     });
-    clone.setAttribute("width", "1600");
-    clone.setAttribute("height", "1200");
+    clone.setAttribute("width", "3840");
+    clone.setAttribute("height", "2880");
     const svgText = new XMLSerializer().serializeToString(clone);
     const url = URL.createObjectURL(new Blob([svgText], { type: "image/svg+xml;charset=utf-8" }));
     const image = new Image();
     image.onload = () => {
       const canvas = document.createElement("canvas");
-      canvas.width = 1600; canvas.height = 1200;
+      canvas.width = 3840; canvas.height = 2880;
       const context = canvas.getContext("2d");
       context.fillStyle = "#fbfaf6"; context.fillRect(0, 0, canvas.width, canvas.height);
       context.drawImage(image, 0, 0, canvas.width, canvas.height);

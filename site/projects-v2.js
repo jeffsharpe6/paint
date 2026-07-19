@@ -3,6 +3,7 @@ window.PAINT_PROJECTS_META = [
   { id: "frenchie-in-blooms", title: "Frenchie in Blooms", category: "puppies", description: "A gentle face among dahlias", difficulty: 3 },
   { id: "dachshund-daydream", title: "Dachshund Daydream", category: "puppies", description: "A rainy-day window reverie", difficulty: 3 },
   { id: "cozy-doodle", title: "Cozy Doodle", category: "puppies", description: "Warm curls beside the hearth", difficulty: 3 },
+  { id: "bichon-sunflower-romp", title: "Sunflower Romp", category: "puppies", description: "A joyful Bichon Frise in the summer sun", difficulty: 3 },
   { id: "desert-afterglow", title: "Desert Afterglow", category: "landscapes", description: "Sonoran silhouettes at dusk", difficulty: 3 },
   { id: "alpine-stillness", title: "Alpine Stillness", category: "landscapes", description: "A mirror lake beneath snowy peaks", difficulty: 3 },
   { id: "tuscan-afternoon", title: "Tuscan Afternoon", category: "landscapes", description: "A cypress-lined path through the hills", difficulty: 3 },
