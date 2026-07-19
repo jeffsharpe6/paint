@@ -57,6 +57,11 @@ button:focus-visible, a:focus-visible, [tabindex="0"]:focus-visible {
 }
 .brand em { color: var(--coral); font-weight: 600; }
 .brand-mark { width: 26px; height: 28px; display: block; flex: 0 0 auto; fill: #8a837a; }
+.brand-pup-mark {
+  width: 32px; height: 32px; object-fit: cover; object-position: 55% 44%;
+  border: 1px solid rgba(78, 68, 56, .2); border-radius: 50%;
+  box-shadow: 0 2px 7px rgba(48, 39, 29, .14);
+}
 .header-action {
   border: 0; background: transparent; color: var(--green); font-weight: 700;
   display: flex; gap: 10px; align-items: center; cursor: pointer;
