@@ -98,6 +98,72 @@
     "previewHeight": 2880
   },
   {
+    "id": "bucees-beaver-fan-art",
+    "palette": [
+      {
+        "hex": "#f8deab",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#f6c139",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#f0ad21",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#db8d2f",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#c55f1e",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#76532c",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#6a3715",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#c11011",
+        "name": "Color 8"
+      },
+      {
+        "hex": "#ae0d0f",
+        "name": "Color 9"
+      },
+      {
+        "hex": "#681e09",
+        "name": "Color 10"
+      },
+      {
+        "hex": "#3d200e",
+        "name": "Color 11"
+      },
+      {
+        "hex": "#181d21",
+        "name": "Color 12"
+      },
+      {
+        "hex": "#0f100e",
+        "name": "Color 13"
+      },
+      {
+        "hex": "#080909",
+        "name": "Color 14"
+      }
+    ],
+    "regions": 513,
+    "width": 640,
+    "height": 480,
+    "previewWidth": 3840,
+    "previewHeight": 2880
+  },
+  {
     "id": "cottage-in-bloom",
     "palette": [
       {

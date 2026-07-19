@@ -20,5 +20,6 @@ window.PAINT_PROJECTS_META = [
   { id: "monarch-moment", title: "Monarch Moment", category: "nature", description: "A butterfly resting in the meadow", difficulty: 3 },
   { id: "koi-pond", title: "Koi Pond", category: "nature", description: "Bright currents beneath lilies", difficulty: 3 },
   { id: "hummingbird-jewel", title: "Hummingbird Jewel", category: "nature", description: "A flash of color at the flowers", difficulty: 3 },
-  { id: "moonlit-companion", title: "Moonlit Companion", category: "nature", description: "A quiet cat beneath the stars", difficulty: 3 }
+  { id: "moonlit-companion", title: "Moonlit Companion", category: "nature", description: "A quiet cat beneath the stars", difficulty: 3 },
+  { id: "bucees-beaver-fan-art", title: "Road-Trip Beaver", category: "nature", description: "Unofficial Buc-ee’s-inspired fan art", difficulty: 3 }
 ];

@@ -1,11 +1,11 @@
 # Palette by Number
 
-A calming, browser-based paint-by-number studio with 22 original, professionally illustrated projects across puppies, landscapes, flowers, gardens, and nature.
+A calming, browser-based paint-by-number studio with 23 original, professionally illustrated projects across puppies, landscapes, flowers, gardens, and nature.
 
 ## Features
 
 - Number-matched color filling with helpful feedback
-- 22 gallery-quality SVG projects with 3,853 fully mapped paint regions
+- 23 gallery-quality SVG projects with 4,366 fully mapped paint regions
 - Five category filters and polished completed-art previews
 - Automatic progress saving in the browser
 - Undo, restart, number hints, and true 6× zoom controls
