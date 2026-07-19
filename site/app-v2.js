@@ -3,8 +3,8 @@
 
   const meta = window.PAINT_PROJECTS_META || [];
   const categoryNames = { puppies: "Puppies", landscapes: "Landscapes", flowers: "Flowers", gardens: "Gardens", nature: "Nature & more" };
-  const STORAGE_KEY = "palette-by-number-progress-v2";
-  const LAST_KEY = "palette-by-number-last-project-v2";
+  const STORAGE_KEY = "palette-by-number-progress-v3";
+  const LAST_KEY = "palette-by-number-last-project-v3";
   const $ = (selector, scope = document) => scope.querySelector(selector);
   const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
   const asset = (id, extension) => `assets/projects/${id}.${extension}`;
@@ -41,7 +41,7 @@
 
   function projectProgress(project) {
     const saved = loadAllProgress()[project.id] || {};
-    return project.regions ? Math.round((Object.keys(saved).length / project.regions) * 100) : 0;
+    return project.regions ? Math.min(100, Math.round((Object.keys(saved).length / project.regions) * 100)) : 0;
   }
 
   function difficultyDots(level) {
@@ -127,10 +127,18 @@
   function prepareArtwork() {
     const svg = $("svg", artboard);
     if (!svg) throw new Error("Artwork is not a valid SVG");
+    const regions = $$(".paint-region", svg);
+    const regionIds = new Set(regions.map(path => path.dataset.regionId));
+    const paletteNumbers = new Set(currentProject.palette.map((_, index) => String(index + 1)));
+    if (regions.length !== currentProject.regions || regionIds.size !== regions.length ||
+        regions.some(path => !paletteNumbers.has(path.dataset.number))) {
+      throw new Error("Artwork region map is incomplete or does not match its palette");
+    }
+    currentState = Object.fromEntries(Object.entries(currentState).filter(([id]) => regionIds.has(id)));
     svg.setAttribute("role", "img");
     svg.setAttribute("aria-label", `${currentProject.title} paint-by-number canvas`);
     svg.classList.toggle("hide-numbers", !numbersVisible);
-    $$(".paint-region", svg).forEach(path => {
+    regions.forEach(path => {
       const id = path.dataset.regionId;
       const painted = Boolean(currentState[id]);
       path.style.fill = painted ? path.dataset.color : "#fbfaf6";
