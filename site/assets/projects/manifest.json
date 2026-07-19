@@ -290,6 +290,72 @@
     "height": 240
   },
   {
+    "id": "doodle-sisters-cabin",
+    "palette": [
+      {
+        "hex": "#cda87c",
+        "name": "Color 1"
+      },
+      {
+        "hex": "#ad8254",
+        "name": "Color 2"
+      },
+      {
+        "hex": "#a96b31",
+        "name": "Color 3"
+      },
+      {
+        "hex": "#7d6750",
+        "name": "Color 4"
+      },
+      {
+        "hex": "#935421",
+        "name": "Color 5"
+      },
+      {
+        "hex": "#794e27",
+        "name": "Color 6"
+      },
+      {
+        "hex": "#5e4a36",
+        "name": "Color 7"
+      },
+      {
+        "hex": "#663a17",
+        "name": "Color 8"
+      },
+      {
+        "hex": "#612a08",
+        "name": "Color 9"
+      },
+      {
+        "hex": "#45321f",
+        "name": "Color 10"
+      },
+      {
+        "hex": "#432005",
+        "name": "Color 11"
+      },
+      {
+        "hex": "#2c2b22",
+        "name": "Color 12"
+      },
+      {
+        "hex": "#281c0e",
+        "name": "Color 13"
+      },
+      {
+        "hex": "#180e05",
+        "name": "Color 14"
+      }
+    ],
+    "regions": 611,
+    "width": 640,
+    "height": 480,
+    "previewWidth": 3840,
+    "previewHeight": 2880
+  },
+  {
     "id": "frenchie-in-blooms",
     "palette": [
       {
