@@ -98,14 +98,14 @@ def validate_render_coverage(project: dict, temp_dir: Path) -> None:
 
 def main() -> None:
     manifest = json.loads((ASSETS / "manifest.json").read_text(encoding="utf-8"))
-    assert len(manifest) == 23, f"Expected 23 projects, found {len(manifest)}"
+    assert len(manifest) == 25, f"Expected 25 projects, found {len(manifest)}"
     with tempfile.TemporaryDirectory(prefix="paint-map-validation-") as directory:
         temp_dir = Path(directory)
         for project in manifest:
             validate_structure(project)
             validate_render_coverage(project, temp_dir)
             print(f"PASS {project['id']}: {project['regions']} numbered regions")
-    print("PASS all 23 project maps are complete and palette-reachable")
+    print("PASS all 25 project maps are complete and palette-reachable")
 
 
 if __name__ == "__main__":

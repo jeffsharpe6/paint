@@ -9,6 +9,8 @@ window.PAINT_PROJECTS_META = [
   { id: "alpine-stillness", title: "Alpine Stillness", category: "landscapes", description: "A mirror lake beneath snowy peaks", difficulty: 3 },
   { id: "tuscan-afternoon", title: "Tuscan Afternoon", category: "landscapes", description: "A cypress-lined path through the hills", difficulty: 3 },
   { id: "keepers-light", title: "Keeper’s Light", category: "landscapes", description: "A lighthouse above a restless sea", difficulty: 3 },
+  { id: "red-river-summer-walk", title: "Red River Summer Walk", category: "landscapes", description: "A summer silhouette beside the Grand Forks Greenway", difficulty: 3 },
+  { id: "malibu-sunset-run", title: "Malibu Sunset Run", category: "landscapes", description: "A coastal silhouette in Pacific sunset light", difficulty: 3 },
   { id: "peony-study", title: "Peony Study", category: "flowers", description: "Layered petals in dusky rose", difficulty: 3 },
   { id: "gathered-wildflowers", title: "Gathered Wildflowers", category: "flowers", description: "A meadow bouquet on linen", difficulty: 3 },
   { id: "sunflower-sunday", title: "Sunflower Sunday", category: "flowers", description: "Bold blooms turned toward light", difficulty: 3 },
