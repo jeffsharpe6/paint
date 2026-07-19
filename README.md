@@ -5,7 +5,7 @@ A calming, browser-based paint-by-number studio with 20 original, professionally
 ## Features
 
 - Number-matched color filling with helpful feedback
-- 20 gallery-quality SVG projects with 2,543 organic paint regions
+- 20 gallery-quality SVG projects with 2,534 fully mapped paint regions
 - Five category filters and polished completed-art previews
 - Automatic progress saving in the browser
 - Undo, restart, number hints, and zoom controls
@@ -18,6 +18,10 @@ A calming, browser-based paint-by-number studio with 20 original, professionally
 Every finished illustration in the collection was created specifically for Palette by Number, then converted into an eight-color interactive SVG. The source artwork favors sophisticated flat-color gouache and cut-paper compositions so the completed projects resemble commercial adult paint-by-number artwork while remaining practical to paint online.
 
 The conversion workflow uses the MIT-licensed [Paint by Numbers Generator](https://github.com/drake7707/paintbynumbersgenerator) by drake7707. See `THIRD_PARTY_NOTICES.md`.
+
+Every project map is checked for complete canvas coverage, unique region IDs,
+matching number labels, and a selectable palette entry for every region. Run
+`python3 tools/validate_project_maps.py` to repeat the full collection audit.
 
 ## GitHub Pages
 

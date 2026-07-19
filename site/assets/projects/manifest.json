@@ -35,9 +35,9 @@
         "name": "Color 8"
       }
     ],
-    "regions": 132,
-    "width": 800,
-    "height": 600
+    "regions": 116,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "cottage-in-bloom",
@@ -71,9 +71,9 @@
         "name": "Color 7"
       }
     ],
-    "regions": 157,
-    "width": 800,
-    "height": 600
+    "regions": 173,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "cozy-doodle",
@@ -172,19 +172,19 @@
       },
       {
         "hex": "#795258",
-        "name": "Color 5"
+        "name": "Color 4"
       },
       {
         "hex": "#9f4338",
-        "name": "Color 6"
+        "name": "Color 5"
       },
       {
         "hex": "#605054",
-        "name": "Color 7"
+        "name": "Color 6"
       },
       {
         "hex": "#836488",
-        "name": "Color 8"
+        "name": "Color 7"
       }
     ],
     "regions": 102,
@@ -227,9 +227,9 @@
         "name": "Color 8"
       }
     ],
-    "regions": 159,
-    "width": 800,
-    "height": 600
+    "regions": 146,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "frenchie-in-blooms",
@@ -267,9 +267,9 @@
         "name": "Color 8"
       }
     ],
-    "regions": 159,
-    "width": 800,
-    "height": 600
+    "regions": 162,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "gathered-wildflowers",
@@ -300,7 +300,7 @@
       },
       {
         "hex": "#efe3cb",
-        "name": "Color 8"
+        "name": "Color 7"
       }
     ],
     "regions": 133,
@@ -343,9 +343,9 @@
         "name": "Color 8"
       }
     ],
-    "regions": 159,
-    "width": 800,
-    "height": 600
+    "regions": 161,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "hummingbird-jewel",
@@ -356,27 +356,27 @@
       },
       {
         "hex": "#d29b2c",
-        "name": "Color 3"
+        "name": "Color 2"
       },
       {
         "hex": "#2e8a5e",
-        "name": "Color 4"
+        "name": "Color 3"
       },
       {
         "hex": "#117058",
-        "name": "Color 5"
+        "name": "Color 4"
       },
       {
         "hex": "#97c7e3",
-        "name": "Color 6"
+        "name": "Color 5"
       },
       {
         "hex": "#e7503c",
-        "name": "Color 7"
+        "name": "Color 6"
       },
       {
         "hex": "#18503f",
-        "name": "Color 8"
+        "name": "Color 7"
       }
     ],
     "regions": 107,
@@ -459,9 +459,9 @@
         "name": "Color 8"
       }
     ],
-    "regions": 159,
-    "width": 800,
-    "height": 600
+    "regions": 151,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "koi-pond",
@@ -488,11 +488,11 @@
       },
       {
         "hex": "#ebe3cf",
-        "name": "Color 7"
+        "name": "Color 6"
       },
       {
         "hex": "#cd8844",
-        "name": "Color 8"
+        "name": "Color 7"
       }
     ],
     "regions": 51,
@@ -640,15 +640,15 @@
       },
       {
         "hex": "#c38f44",
-        "name": "Color 6"
+        "name": "Color 5"
       },
       {
         "hex": "#bb6877",
-        "name": "Color 7"
+        "name": "Color 6"
       },
       {
         "hex": "#743148",
-        "name": "Color 8"
+        "name": "Color 7"
       }
     ],
     "regions": 86,
@@ -668,28 +668,28 @@
       },
       {
         "hex": "#67774b",
-        "name": "Color 4"
+        "name": "Color 3"
       },
       {
         "hex": "#b7636f",
-        "name": "Color 5"
+        "name": "Color 4"
       },
       {
         "hex": "#344834",
-        "name": "Color 6"
+        "name": "Color 5"
       },
       {
         "hex": "#4c3c4e",
-        "name": "Color 7"
+        "name": "Color 6"
       },
       {
         "hex": "#c39848",
-        "name": "Color 8"
+        "name": "Color 7"
       }
     ],
-    "regions": 159,
-    "width": 800,
-    "height": 600
+    "regions": 164,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "sunflower-sunday",
@@ -727,9 +727,9 @@
         "name": "Color 8"
       }
     ],
-    "regions": 159,
-    "width": 800,
-    "height": 600
+    "regions": 161,
+    "width": 320,
+    "height": 240
   },
   {
     "id": "tuscan-afternoon",
